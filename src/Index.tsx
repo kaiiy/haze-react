@@ -43,7 +43,8 @@ const LinkButton: FC<LinkButtonProps> = ({ href, children }) => (
     {children}
   </a>
 );
-const App: FC = () => {
+
+export const Index: FC = () => {
   return (
     <>
       <div className="flex mb-4">
@@ -82,5 +83,3 @@ const App: FC = () => {
     </>
   );
 };
-
-export default App;
